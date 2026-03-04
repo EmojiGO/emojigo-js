@@ -1,15 +1,15 @@
 <div align="center">
 
-# 🚀 emojigo
+# 🚀 emojigoio
 
 **Multilingual emoji search library — 3,600+ emojis in 23 languages**
 
 Fast, lightweight, zero dependencies.
 
-[![npm version](https://img.shields.io/npm/v/emojigo.svg)](https://www.npmjs.com/package/emojigo)
-[![license](https://img.shields.io/npm/l/emojigo.svg)](https://github.com/emojigo/emojigo-js/blob/main/LICENSE)
+[![npm version](https://img.shields.io/npm/v/emojigoio.svg)](https://www.npmjs.com/package/emojigoio)
+[![license](https://img.shields.io/npm/l/emojigoio.svg)](https://github.com/EmojiGO/emojigo-js/blob/main/LICENSE)
 
-[Website](https://emojigo.io) · [npm](https://www.npmjs.com/package/emojigo) · [GitHub](https://github.com/emojigo/emojigo-js)
+[Website](https://emojigo.io) · [npm](https://www.npmjs.com/package/emojigoio) · [GitHub](https://github.com/EmojiGO/emojigo-js)
 
 </div>
 
@@ -27,13 +27,13 @@ Fast, lightweight, zero dependencies.
 ## Install
 
 ```bash
-npm install emojigo
+npm install emojigoio
 ```
 
 ## Quick Start
 
 ```js
-import { search, getInfo, random, getCategories } from 'emojigo'
+import { search, getInfo, random, getCategories } from 'emojigoio'
 
 // Search in English (default)
 search('heart')
