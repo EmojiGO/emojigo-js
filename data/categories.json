@@ -1,0 +1,38 @@
+[
+    {
+        "slug": "smileys-emotion",
+        "icon": "😀"
+    },
+    {
+        "slug": "people-body",
+        "icon": "👋"
+    },
+    {
+        "slug": "animals-nature",
+        "icon": "🐶"
+    },
+    {
+        "slug": "food-drink",
+        "icon": "🍕"
+    },
+    {
+        "slug": "travel-places",
+        "icon": "✈️"
+    },
+    {
+        "slug": "activities",
+        "icon": "⚽"
+    },
+    {
+        "slug": "objects",
+        "icon": "💡"
+    },
+    {
+        "slug": "symbols",
+        "icon": "❤️"
+    },
+    {
+        "slug": "flags",
+        "icon": "🏳️"
+    }
+]

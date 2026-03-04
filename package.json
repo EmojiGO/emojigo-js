@@ -1,0 +1,56 @@
+{
+  "name": "emojigo",
+  "version": "1.0.0",
+  "description": "Multilingual emoji search library with 3600+ emojis in 23 languages. Fast, lightweight, zero dependencies.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "data",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "emoji",
+    "emojis",
+    "unicode",
+    "multilingual",
+    "i18n",
+    "search",
+    "emoji-search",
+    "emoji-data",
+    "emoji-kitchen",
+    "turkish",
+    "arabic",
+    "hindi",
+    "german",
+    "french",
+    "russian"
+  ],
+  "author": "Emojigo <hello@emojigo.io> (https://emojigo.io)",
+  "license": "MIT",
+  "homepage": "https://emojigo.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emojigo/emojigo-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/emojigo/emojigo-js/issues"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.0"
+  }
+}
